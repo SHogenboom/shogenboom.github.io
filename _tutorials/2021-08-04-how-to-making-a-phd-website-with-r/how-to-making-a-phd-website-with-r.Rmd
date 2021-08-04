@@ -1,13 +1,14 @@
 ---
 title: "How To Make A Website with R Studio"
 description: |
-  A Step-by-step tutorial on how to create a website with R Studio.
+  In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the `postcards` package and made some styling (CSS) adjustments.
 author:
   - name: Sally A.M. Hogenboom
 date: "`r Sys.Date()`"
 output:
   distill::distill_article:
     self_contained: false
+preview: images/new-distill-project.png
 ---
 
 # Background Knowledge
@@ -59,47 +60,54 @@ There are multiple ways in which you can use the R Studio environment for creati
 
 In order to put your website online it must be hosted. I like to envision 'hosting' as a town (the provider) in an online world. I have opted to use the provider [Github Pages](https://pages.github.com/) because (1) it is free (!) and (2) it forces me to version control my website.
 
-**Github**
-1. Create a new  - **empty and public** - repository:
-    ```
-    USERNAME.github.io
-    ```
+**Github**  
 
-**Terminal**
+1. Create a new  - **empty and public** - repository:
+      ```
+      USERNAME.github.io
+      ```
+
+**Terminal**  
+
 1. Open a new terminal at the folder where you stored your website
-1. Initialize git for the folder
-    ```
-    git init
-    ```
-1. Add all files
+1. Initialize git for the folder  
+      ```
+      git init
+      ```
+      
+1. Add all files  
     ```
     git add -A
     ```
-1. Commit the files
+1. Commit the files  
     ```
     git commit -m "Initialize Website"
     ```
-1. Create the main branch
+1. Create the main branch  
     ```
     git branch -M main
     ```
-1. Connect the folder and the Github Repository
+1. Connect the folder and the Github Repository  
     ```
     git remote add origin https://github.com/SHogenboom/shogenboom.github.io.git
     ```
-1. Push the local files to the Github Repository
+1. Push the local files to the Github Repository  
     ```
     git push -u origin main
     ```
 
-**Github**
+  
+**Github**  
+
 * Open `Settings` > `Pages`
 * Change the `source` of the page to the sub-folder `/docs`
 
-**Terminal**
+**Terminal** 
+
 * Pull the changes that were made to the repository (`CNAME`)
 
-**Web browser**
+**Web browser**  
+
 * Your website is now online @ `https://USERNAME.github.io`
 
 # Adding a Profile Page
@@ -110,12 +118,15 @@ I wanted people to land on a sort of 'Home' page with some basic profile informa
 
 Before you get started, check out the `postcards` [documentation](https://github.com/seankross/postcards) to see the profile pages from which you can choose.
 
-**R Studio**
-1. Create a new postcard:
+**R Studio**  
+
+1. Create a new postcard:  
     ```
     postcards::create_postcard(file = "home.Rmd",template = "jolla")
-    ```
-1. Copy the `yaml` header to the `index.Rmd` file and update with your personal information. My header now looks like this:
+    ```  
+    
+1. Copy the `yaml` header to the `index.Rmd` file and update with your personal information. My header now looks like this:  
+
     ```
     title: "Sally A.M. Hogenboom"
     image: "images/avatar.jpg"
@@ -128,36 +139,36 @@ Before you get started, check out the `postcards` [documentation](https://github
       postcards::jolla
     site: distill::distill_website
     ```
-1. Re-build the website
+    
+1. Re-build the website  
     ```
     rmarkdown::render_site(encoding = 'UTF-8')
     ```
 
-**Terminal**
-* Add the changes
+**Terminal**  
+
+* Add the changes  
     ```
     git add -A
     ```
-* Add an informative message for the version control
+* Add an informative message for the version control  
     ```
     git commit -m "Add profile page"
     ```
-* Push the changes so they show up online
+* Push the changes so they show up online  
     ```
     git push
     ```
     
-
-
-# Custom Styling
+# Custom Styling  
 
 I really love the Distill framework but have opted to make some custom styling changes. The process of adding custom styling (CSS) to your website is described in detail in their [documentation](https://rstudio.github.io/distill/website.html?panelset1=theme.css&panelset2=theme.css2#theming). 
 
-In my own words the steps were as follows:
+In my own words the steps were as follows:  
 
-* Open `R Studio`
-* Open your website project
-* Create a new theme from the `Console`:
+**R Studio** 
+
+* Create a new theme:
   ```{r, echo = TRUE, eval = FALSE}
   distill::create_theme()
   ```

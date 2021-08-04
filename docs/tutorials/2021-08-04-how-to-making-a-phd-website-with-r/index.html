@@ -86,9 +86,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>SHOGENBOOM: How To: Making A (PhD) Website with R</title>
+<title>SHOGENBOOM: How To Make A Website with R Studio</title>
 
-<meta property="description" itemprop="description" content="A Step-by-step tutorial of how to create a website with R Studio."/>
+<meta property="description" itemprop="description" content="In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the `postcards` package and made some styling (CSS) adjustments."/>
 
 
 <!--  https://schema.org/Article -->
@@ -97,22 +97,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="article:author" content="Sally A.M. Hogenboom"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="SHOGENBOOM: How To: Making A (PhD) Website with R"/>
+<meta property="og:title" content="SHOGENBOOM: How To Make A Website with R Studio"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="A Step-by-step tutorial of how to create a website with R Studio."/>
+<meta property="og:description" content="In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the `postcards` package and made some styling (CSS) adjustments."/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="SHOGENBOOM"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="SHOGENBOOM: How To: Making A (PhD) Website with R"/>
-<meta property="twitter:description" content="A Step-by-step tutorial of how to create a website with R Studio."/>
+<meta property="twitter:title" content="SHOGENBOOM: How To Make A Website with R Studio"/>
+<meta property="twitter:description" content="In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the `postcards` package and made some styling (CSS) adjustments."/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["How To: Making A (PhD) Website with R"]},{"type":"character","attributes":{},"value":["A Step-by-step tutorial of how to create a website with R Studio."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Sally A.M. Hogenboom"]}]}]},{"type":"character","attributes":{},"value":["2021-08-04"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","preview"]}},"value":[{"type":"character","attributes":{},"value":["How To Make A Website with R Studio"]},{"type":"character","attributes":{},"value":["In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the `postcards` package and made some styling (CSS) adjustments."]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Sally A.M. Hogenboom"]}]}]},{"type":"character","attributes":{},"value":["2021-08-04"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["images/new-distill-project.png"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2382,7 +2382,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"How To: Making A (PhD) Website with R","description":"A Step-by-step tutorial of how to create a website with R Studio.","authors":[{"author":"Sally A.M. Hogenboom","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-08-04T00:00:00.000+00:00","citationText":"Hogenboom, 2021"}
+{"title":"How To Make A Website with R Studio","description":"In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the `postcards` package and made some styling (CSS) adjustments.","authors":[{"author":"Sally A.M. Hogenboom","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-08-04T00:00:00.000+00:00","citationText":"Hogenboom, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2394,7 +2394,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="../../index.html">Home</a>
+<a href="../../tutorials.html">Tutorials</a>
 <a href="../../about.html">About</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2405,10 +2405,10 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>How To: Making A (PhD) Website with R</h1>
+<h1>How To Make A Website with R Studio</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>A Step-by-step tutorial of how to create a website with R Studio.</p></p>
+<p><p>In this tutorial I describe how to create a Distill website with R Studio and Github Pages. I also describe how I created the profile homepage with the <code>postcards</code> package and made some styling (CSS) adjustments.</p></p>
 </div>
 
 <div class="d-byline">
@@ -2430,9 +2430,9 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p>I will try and describe the steps as detailed as possible. However, I will not include directions such as “upper-right corner” because user interfaces are known to change.</p>
 <h1 id="creating-the-website">Creating the Website</h1>
 <blockquote>
-<p><strong>Objective:</strong> Creating an empty (shell) website</p>
+<p><strong>Objective</strong>: Creating an empty/shell website</p>
 </blockquote>
-<p>There are multiple ways in which you can use the R Studio environment for creating websites. I have personally tried two alternatives: Hugo/Blogdown and Distill. In this tutorial I will describe the process of creating a Distill based website, as I found it to be the most intuitive and easy-to-use of both alternatives.</p>
+<p>There are multiple ways in which you can use the R Studio environment for creating websites. I have personally tried two alternatives: <code>Hugo</code>/<code>Blogdown</code> and <code>Distill</code>. In this tutorial I will describe the process of creating a Distill based website, as I found it to be the most intuitive and easy-to-use of both alternatives.</p>
 <p><code>Distill</code> has excellent <a href="https://rstudio.github.io/distill/website.html">documentation</a> available. Some of the steps I describe here will also be included in their documentation, but I will try and go beyond what they have already described.</p>
 <ol type="1">
 <li><p>Open <code>R Studio</code><br />
@@ -2468,20 +2468,81 @@ d-appendix d-footnote-list a.footnote-backlink {
 </ol>
 <h1 id="creating-a-github-page">Creating a Github Page</h1>
 <blockquote>
-<p><strong>Objective</strong>: Launching the Website Online</p>
+<p><strong>Objective</strong>: Putting the Website Online</p>
 </blockquote>
-<p>Each website must by hosted. I like to envision it as a town (the provider) in an online world. I have opted to use <a href="https://pages.github.com/">Github Pages</a> because (1) it is free and (2) it forces me to version control my website.</p>
-<p><strong>Github</strong> 1. Create a new - <strong>empty and public</strong> - repository: <code>USERNAME.github.io</code></p>
-<p><strong>Terminal</strong> 1. Open a new terminal at the Website folder 1. Initialize git <code>git init</code> 1. Add all files <code>git add -A</code> 1. Commit the files <code>git commit -m "Initialize Website"</code> 1. Create the main branch <code>git branch -M main</code> 1. Connect the folder and the Github Repository <code>git remote add origin https://github.com/SHogenboom/shogenboom.github.io.git</code> 1. Push the local files to the Github Repository <code>git push -u origin main</code></p>
-<p><strong>Github</strong> * Open <code>Settings</code> &gt; <code>Pages</code> * Change the <code>source</code> of the page to the sub-folder <code>/docs</code></p>
-<p><strong>Web browser</strong> * Your website is now online @ <code>https://USERNAME.github.io</code></p>
+<p>In order to put your website online it must be hosted. I like to envision ‘hosting’ as a town (the provider) in an online world. I have opted to use the provider <a href="https://pages.github.com/">Github Pages</a> because (1) it is free (!) and (2) it forces me to version control my website.</p>
+<p><strong>Github</strong></p>
+<ol type="1">
+<li>Create a new - <strong>empty and public</strong> - repository: <code>USERNAME.github.io</code></li>
+</ol>
+<p><strong>Terminal</strong></p>
+<ol type="1">
+<li><p>Open a new terminal at the folder where you stored your website</p></li>
+<li><p>Initialize git for the folder<br />
+<code>git init</code></p></li>
+<li><p>Add all files<br />
+<code>git add -A</code></p></li>
+<li><p>Commit the files<br />
+<code>git commit -m "Initialize Website"</code></p></li>
+<li><p>Create the main branch<br />
+<code>git branch -M main</code></p></li>
+<li><p>Connect the folder and the Github Repository<br />
+<code>git remote add origin https://github.com/SHogenboom/shogenboom.github.io.git</code></p></li>
+<li><p>Push the local files to the Github Repository<br />
+<code>git push -u origin main</code></p></li>
+</ol>
+<p><strong>Github</strong></p>
+<ul>
+<li>Open <code>Settings</code> &gt; <code>Pages</code></li>
+<li>Change the <code>source</code> of the page to the sub-folder <code>/docs</code></li>
+</ul>
+<p><strong>Terminal</strong></p>
+<ul>
+<li>Pull the changes that were made to the repository (<code>CNAME</code>)</li>
+</ul>
+<p><strong>Web browser</strong></p>
+<ul>
+<li>Your website is now online @ <code>https://USERNAME.github.io</code></li>
+</ul>
+<h1 id="adding-a-profile-page">Adding a Profile Page</h1>
+<blockquote>
+<p><strong>Objective</strong>: Converting your homepage to a profile page</p>
+</blockquote>
+<p>I wanted people to land on a sort of ‘Home’ page with some basic profile information. Luckily, the Distill documentation clearly describes how you can use the <code>postcards</code> package to create a profile/landing page.</p>
+<p>Before you get started, check out the <code>postcards</code> <a href="https://github.com/seankross/postcards">documentation</a> to see the profile pages from which you can choose.</p>
+<p><strong>R Studio</strong></p>
+<ol type="1">
+<li><p>Create a new postcard:<br />
+<code>postcards::create_postcard(file = "home.Rmd",template = "jolla")</code></p></li>
+<li><p>Copy the <code>yaml</code> header to the <code>index.Rmd</code> file and update with your personal information. My header now looks like this:</p>
+<pre><code>title: &quot;Sally A.M. Hogenboom&quot;
+image: &quot;images/avatar.jpg&quot;
+links:
+  - label: GitHub
+    url: &quot;https://github.com/SHogenboom&quot;
+  - label: Email
+    url: &quot;mailto:s.a.m.hogenboom@uva.nl&quot;
+output:
+  postcards::jolla
+site: distill::distill_website</code></pre></li>
+<li><p>Re-build the website<br />
+<code>rmarkdown::render_site(encoding = 'UTF-8')</code></p></li>
+</ol>
+<p><strong>Terminal</strong></p>
+<ul>
+<li>Add the changes<br />
+<code>git add -A</code></li>
+<li>Add an informative message for the version control<br />
+<code>git commit -m "Add profile page"</code></li>
+<li>Push the changes so they show up online<br />
+<code>git push</code></li>
+</ul>
 <h1 id="custom-styling">Custom Styling</h1>
 <p>I really love the Distill framework but have opted to make some custom styling changes. The process of adding custom styling (CSS) to your website is described in detail in their <a href="https://rstudio.github.io/distill/website.html?panelset1=theme.css&amp;panelset2=theme.css2#theming">documentation</a>.</p>
 <p>In my own words the steps were as follows:</p>
+<p><strong>R Studio</strong></p>
 <ul>
-<li>Open <code>R Studio</code></li>
-<li>Open your website project</li>
-<li>Create a new theme from the <code>Console</code>:
+<li>Create a new theme:
 <div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span class='fu'>distill</span><span class='fu'>::</span><span class='fu'><a href='https://pkgs.rstudio.com/distill/reference/create_theme.html'>create_theme</a></span><span class='op'>(</span><span class='op'>)</span>
@@ -2520,15 +2581,25 @@ d-appendix d-footnote-list a.footnote-backlink {
 <section id="css" class="panel">
 <h4>CSS</h4>
 <div class="layout-chunk" data-layout="l-body">
-<div class="sourceCode" id="cb2"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Decrease spacing between elements of bullet lists */</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">/* 0.1em creates a small space between lines of text dependent on the font-size*/</span></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>d-article li<span class="op">,</span> d-article ul<span class="op">,</span> di-article ol {</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-bottom</span>: <span class="dv">0.1</span><span class="dt">em</span><span class="op">;</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">/* Decrease spacing between elements of bullet lists */</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">/* 0.1em creates a small space between lines of text dependent on the font-size*/</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>d-article li<span class="op">,</span> d-article ul<span class="op">,</span> di-article ol {</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="kw">margin-bottom</span>: <span class="dv">0.1</span><span class="dt">em</span><span class="op">;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
 </div>
 </section>
 </div>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<h1 id="custom-url">Custom URL</h1>
+<ul>
+<li>buy it</li>
+</ul>
+<p><strong>Github</strong></p>
+<ol type="1">
+<li>Open <code>Settings</code> &gt; <code>Pages</code></li>
+<li>In the <code>custom domain</code> field add the URL you have purchased.</li>
+<li>Your website is now accesible from the custom URL.</li>
+</ol>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
