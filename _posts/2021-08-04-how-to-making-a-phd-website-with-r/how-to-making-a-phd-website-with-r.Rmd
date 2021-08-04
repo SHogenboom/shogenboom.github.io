@@ -24,7 +24,7 @@ I will try and describe the steps as detailed as possible. However, I will not i
 
 # Creating the Website
 
-> **Objective:** Creating an empty/shell website
+> **Objective**: Creating an empty/shell website
 
 There are multiple ways in which you can use the R Studio environment for creating websites. I have personally tried two alternatives: `Hugo`/`Blogdown` and `Distill`. In this tutorial I will describe the process of creating a Distill based website, as I found it to be the most intuitive and easy-to-use of both alternatives.
 
@@ -104,6 +104,8 @@ In order to put your website online it must be hosted. I like to envision 'hosti
 
 # Adding a Profile Page
 
+> **Objective**: Converting your homepage to a profile page
+
 I wanted people to land on a sort of 'Home' page with some basic profile information. Luckily, the Distill documentation clearly describes how you can use the `postcards` package to create a profile/landing page.
 
 Before you get started, check out the `postcards` [documentation](https://github.com/seankross/postcards) to see the profile pages from which you can choose.
@@ -149,7 +151,7 @@ Before you get started, check out the `postcards` [documentation](https://github
 
 # Custom Styling
 
-I really love the Distill framework but have opted to make some custom styling changes. The process of adding custom styling (CSS) to your website is described in detail in their [documentation](https://rstudio.github.io/distill/website.html?panelset1=theme.css&panelset2=theme.css2#theming).
+I really love the Distill framework but have opted to make some custom styling changes. The process of adding custom styling (CSS) to your website is described in detail in their [documentation](https://rstudio.github.io/distill/website.html?panelset1=theme.css&panelset2=theme.css2#theming). 
 
 In my own words the steps were as follows:
 
