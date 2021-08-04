@@ -96,6 +96,9 @@ In order to put your website online it must be hosted. I like to envision 'hosti
 * Open `Settings` > `Pages`
 * Change the `source` of the page to the sub-folder `/docs`
 
+**Terminal**
+* Pull the changes that were made to the repository (`CNAME`)
+
 **Web browser**
 * Your website is now online @ `https://USERNAME.github.io`
 
@@ -110,8 +113,7 @@ Before you get started, check out the `postcards` [documentation](https://github
     ```
     postcards::create_postcard(file = "home.Rmd",template = "jolla")
     ```
-1. Update with the necessary information
-1. Copy the `yaml` header to the `index.Rmd` file. My header now looks like this:
+1. Copy the `yaml` header to the `index.Rmd` file and update with your personal information. My header now looks like this:
     ```
     title: "Sally A.M. Hogenboom"
     image: "images/avatar.jpg"
@@ -124,6 +126,26 @@ Before you get started, check out the `postcards` [documentation](https://github
       postcards::jolla
     site: distill::distill_website
     ```
+1. Re-build the website
+    ```
+    rmarkdown::render_site(encoding = 'UTF-8')
+    ```
+
+**Terminal**
+* Add the changes
+    ```
+    git add -A
+    ```
+* Add an informative message for the version control
+    ```
+    git commit -m "Add profile page"
+    ```
+* Push the changes so they show up online
+    ```
+    git push
+    ```
+    
+
 
 # Custom Styling
 
