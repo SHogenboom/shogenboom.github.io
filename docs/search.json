@@ -6,22 +6,22 @@
       "description": "Some additional details about the website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-08-04T17:21:59+02:00"
+      "last_modified": "2021-08-05T12:18:43+02:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "Blog",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-08-05T12:18:43+02:00"
     },
     {
       "path": "index.html",
       "title": "Sally A.M. Hogenboom",
       "author": [],
-      "contents": "\n\n          \n          \n          SHOGENBOOM\n          \n          \n          Tutorials\n          About\n          ☰\n          \n          \n      \n        \n          \n            Sally A.M. Hogenboom\n          \n          \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n          \n\n          \n            \n              \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-08-04T17:21:59+02:00"
-    },
-    {
-      "path": "tutorials.html",
-      "title": "Tutorials",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-08-04T17:22:00+02:00"
+      "contents": "\n\n          \n          \n          SHOGENBOOM  \n          Blog\n          Projects\n          \n          \n          CV\n           \n          ▾\n          \n          \n          Academic\n          Successes\n          Failures\n          \n          \n          About\n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Sally A.M. Hogenboom\n          \n          \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n          \n\n          \n            \n              \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-08-05T12:18:43+02:00"
     }
   ],
-  "collections": ["tutorials/tutorials.json"]
+  "collections": ["posts/posts.json"]
 }

@@ -1,6 +1,6 @@
 ---
 title: "Sally A.M. Hogenboom"
-image: "images/avatar.jpg"
+image: "images/avatar.gif"
 links:
   - label: GitHub
     url: "https://github.com/SHogenboom"

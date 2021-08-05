@@ -1,13 +1,28 @@
 name: "Website"
-title: "SHOGENBOOM"
+title: "SHOGENBOOM  "
 description: |
 output_dir: "docs"
 navbar:
-  right:
-    - text: "Tutorials"
-      href: tutorials.html
+  left:
+    - text: "Blog"
+      href: blog.html
+    - text: "Projects"
+      href: projects.html
+    - text: "CV"
+      menu:
+        - text: "Academic"
+          href: "cv-academic.html"
+        - text: "Successes"
+          href: "cv-success"
+        - text: "Failures"
+          href: "cv-failures"
     - text: "About"
       href: about.html
+  right:
+    - icon: fab fa-github
+      href: https://github.com/SHogenboom
+    - icon: far fa-envelope
+      href: mailto:s.a.m.hogenboom@uva.nl
 output:
   distill::distill_article:
     theme: theme.css
