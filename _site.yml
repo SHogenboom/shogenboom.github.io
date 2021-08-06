@@ -6,16 +6,10 @@ navbar:
   left:
     - text: "Blog"
       href: blog.html
-    - text: "Projects"
-      href: projects.html
     - text: "CV"
       menu:
         - text: "Academic"
-          href: "cv-academic.html"
-        - text: "Successes"
-          href: "cv-success"
-        - text: "Failures"
-          href: "cv-failures"
+          href: "CV_academic.html"
     - text: "About"
       href: about.html
   right:
@@ -25,4 +19,4 @@ navbar:
       href: mailto:s.a.m.hogenboom@uva.nl
 output:
   distill::distill_article:
-    theme: theme.css
+    theme: "CSS/theme.css"

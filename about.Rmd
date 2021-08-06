@@ -1,10 +1,32 @@
 ---
-title: "About this site"
-description: |
-  Some additional details about the website
+title: "Sally A.M. Hogenboom"
+image: "images/avatar.gif"
+links:
+  - label: GitHub
+    url: "https://github.com/SHogenboom"
+  - label: Email
+    url: "mailto:s.a.m.hogenboom@uva.nl"
+output:
+  postcards::jolla
+site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
 ```
 
+### Affiliations
+I'm conducting my work as part of the [Institute for Logic, Lanugauge and Computation](https://www.illc.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/) in the Netherlands. 
+
+### Collaborations  
+For ongoing collaborations (e.g., my supervisors) please see the [bias-barometer project website](https://bias-barometer.github.io)
+
+### Funding
+The research we conduct is funded by the Dutch Research Council ([NWO](https://www.nwo.nl/en/about-nwo/what+does+nwo+do)) as part of the project [The Biased Reality of Online Media](https://www.nwo.nl/en/research-and-results/research-projects/i/52/35152.html)

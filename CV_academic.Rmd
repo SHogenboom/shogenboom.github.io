@@ -1,0 +1,70 @@
+---
+title: "Academic CV"
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    css: "CSS/timeline.css"
+---
+
+```{r, setup, echo = FALSE}
+library(tidyverse)
+source(here::here("_functions",
+                  "timeline.R"))
+```
+
+```{r, layout = "l-screen", echo = FALSE}
+start_timeline()
+
+#### VWO ####
+add_item(
+  title = "VWO",
+  description = 
+    glue::glue(
+      "<em>CSG Blaise Pascal, Spijkenisse, the Netherlands</em>",
+      "<ul>",
+      "<li> A-level equivalent",
+      "<li> Dutch, English, German, Physics, Science, Math, Biology, and Sports and Community",
+      "</ul>"
+    ), 
+  publication_date = "2004 - 2010",
+  card_position = "left",
+  icon_name = "graduation-cap"
+)
+
+#### BACHELOR ####
+add_item(
+  title = "Bachelor Psychology",
+  description = 
+    glue::glue(
+      "<em>Erasmus University Rotterdam, the Netherlands</em>",
+      "<ul>",
+      "<li> Major: Clinical Psychology",
+      "<li> Grade: 7.5/10",
+      "</ul>"
+    ), 
+  publication_date = "2010 - 2012; 2015 - 2016",
+  card_position = "right",
+  icon_name = "graduation-cap"
+  )
+
+#### MASTER ####
+add_item(
+  title = "Research Master Psychology",
+  description = 
+    glue::glue(
+      "<em>University of Amsterdam, the Netherlands</em>",
+      "<ul>",
+      "<li> Major: Social Psychology",
+      "<li> Minor: Psychological Methods and Techniques", 
+      "<li> Grade: 8/10 (Cum Laude)",
+      "</ul>"
+    ), 
+  publication_date = "2016 - 2018",
+  card_position = "left",
+  icon_name = "graduation-cap"
+  )
+
+close_timeline()
+```

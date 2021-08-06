@@ -2,25 +2,32 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "Sally A.M. Hogenboom",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-08-05T12:18:43+02:00"
+      "contents": "\n\n          \n          \n          SHOGENBOOM  \n          Blog\n          \n          \n          CV\n           \n          ▾\n          \n          \n          Academic\n          \n          \n          About\n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Sally A.M. Hogenboom\n          \n          \n            \n              \n              Affiliations\n              I’m conducting my work as part of the Institute for Logic, Lanugauge and Computation at the University of Amsterdam in the Netherlands.\n              \n              \n              Collaborations\n              For ongoing collaborations (e.g., my supervisors) please see the bias-barometer project website\n              \n              \n              Funding\n              The research we conduct is funded by the Dutch Research Council (NWO) as part of the project The Biased Reality of Online Media\n              \n            \n            \n              \n              Affiliations\n              I’m conducting my work as part of the Institute for Logic, Lanugauge and Computation at the University of Amsterdam in the Netherlands.\n              \n              \n              Collaborations\n              For ongoing collaborations (e.g., my supervisors) please see the bias-barometer project website\n              \n              \n              Funding\n              The research we conduct is funded by the Dutch Research Council (NWO) as part of the project The Biased Reality of Online Media\n              \n            \n          \n\n          \n            \n              \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-08-06T12:59:48+02:00"
     },
     {
       "path": "blog.html",
       "title": "Blog",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-08-05T12:18:43+02:00"
+      "last_modified": "2021-08-06T12:59:48+02:00"
+    },
+    {
+      "path": "CV_academic.html",
+      "title": "Academic CV",
+      "author": [],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\n\n\n\n\n\n\n\nVWO\n2004 - 2010\nCSG Blaise Pascal, Spijkenisse, the Netherlands A-level equivalent Dutch, English, German, Physics, Science, Math, Biology, and Sports and Community\n\n\n\n\nBachelor Psychology\n2010 - 2012; 2015 - 2016\nErasmus University Rotterdam, the Netherlands Major: Clinical Psychology Grade: 7.5/10\n\n\n\n\nResearch Master Psychology\n2016 - 2018\nUniversity of Amsterdam, the Netherlands Major: Social Psychology Minor: Psychological Methods and Techniques Grade: 8/10 (Cum Laude)\n\n  \n\n\n\n\n",
+      "last_modified": "2021-08-06T12:59:51+02:00"
     },
     {
       "path": "index.html",
       "title": "Sally A.M. Hogenboom",
       "author": [],
-      "contents": "\n\n          \n          \n          SHOGENBOOM  \n          Blog\n          Projects\n          \n          \n          CV\n           \n          ▾\n          \n          \n          Academic\n          Successes\n          Failures\n          \n          \n          About\n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Sally A.M. Hogenboom\n          \n          \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n          \n\n          \n            \n              \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2021-08-05T12:18:43+02:00"
+      "contents": "\n\n          \n          \n          SHOGENBOOM  \n          Blog\n          \n          \n          CV\n           \n          ▾\n          \n          \n          Academic\n          \n          \n          About\n          \n          \n          \n          \n          \n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Sally A.M. Hogenboom\n          \n          \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n            \n              A PhD Student with the Institute for Logic, Language and Computation at the University of Amsterdam in the Netherlands.\n              Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations\n            \n          \n\n          \n            \n              \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-08-06T12:59:52+02:00"
     }
   ],
   "collections": ["posts/posts.json"]
