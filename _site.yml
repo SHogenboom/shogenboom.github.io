@@ -7,9 +7,7 @@ navbar:
     - text: "Blog"
       href: blog.html
     - text: "CV"
-      menu:
-        - text: "Academic"
-          href: "CV_academic.html"
+      href: CV.html
     - text: "About"
       href: about.html
   right:
