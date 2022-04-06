@@ -4,8 +4,6 @@ description: |
   Are you a user of R Studio? Do you use R Markdown to create your reports? If so, this tutorial is for you! I have created my website with R Studio so that I can easily add my R Markdown reports/blogposts/slides. In this post I describe (1) how to create an empty website with R Studio, (2) how to launch your website with Github Pages, and (3) how to create a profile homepage.
 author:
   - name: "Sally A.M. Hogenboom"
-    affiliation: Institute for Logic, Language and Computation <br> University of Amsterdam
-    affiliation_url: https://illc.uva.nl
     orcid_id: 0000-0003-3222-0019
 date: "`r Sys.Date()`"
 output:
