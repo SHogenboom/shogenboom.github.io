@@ -174,7 +174,7 @@ You can make your homepage (`index.html`) anything you want. I wanted a sort of 
       - label: GitHub
         url: "https://github.com/SHogenboom"
       - label: Email
-        url: "mailto:s.a.m.hogenboom@uva.nl"
+        url: "mailto:sally.hogenboom@gmail.com"
     output:
       postcards::jolla
     site: distill::distill_website
