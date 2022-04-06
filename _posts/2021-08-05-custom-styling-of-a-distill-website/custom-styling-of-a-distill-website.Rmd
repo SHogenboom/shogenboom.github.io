@@ -1,22 +1,17 @@
 ---
 title: "Custom Styling of a Distill Website"
 description: |
-  A short description of the post.
+  Some Examples of CSS Tweaks I made to the Distill Theme
 author:
   - name: "Sally A.M. Hogenboom"
-    affiliation: Institute for Logic, Language and Computation <br> University of Amsterdam
-    affiliation_url: https://illc.uva.nl
-    orcid_id: 0000-0003-3222-0019
 date: "`r Sys.Date()`"
 output:
   distill::distill_article:
     self_contained: false
 creative_commons: CC BY-NC-SA
 categories:
-  - Github
-  - Github Pages
-  - Namecheap
-draft: true
+  - Distill
+  - CSS
 ---
 
 # Custom Styling  
