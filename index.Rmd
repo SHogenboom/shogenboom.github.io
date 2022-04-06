@@ -22,6 +22,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-A PhD Student with the [Institute for Logic, Language and Computation](https://www.illc.uva.nl/) at the [University of Amsterdam](https://www.uva.nl/) in the Netherlands.
+A Teacher with the [Methods & Statistics](https://www.ou.nl/onderzoek-psychologie-methoden-en-technieken) section of the [Psychology](https://www.ou.nl/en/web/open-universiteit/faculty-of-psychology) faculty @ the [Open Universiteit, NLD](https://www.ou.nl/en/home)
 
 *Psychology, Methodology, Statistics, Web-based Experiments, Data Visualization, Programming Education, Computational Thinking, Stereotypes, Associations*
