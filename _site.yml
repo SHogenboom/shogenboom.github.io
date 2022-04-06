@@ -6,6 +6,8 @@ navbar:
   left:
     - text: "Blog"
       href: blog.html
+    - text: "CV"
+      href: cv.html
   right:
     - icon: fab fa-github
       href: https://github.com/SHogenboom
