@@ -1,0 +1,41 @@
+---
+title: "How to setup jsPsych and Webpack"
+description: |
+  A quick documentation of how I set up a new jsPsych + Webpack repository
+author:
+  - name: Sally A.M. Hogenboom
+    orcid_id: 0000-0003-3222-0019
+date: 2023-01-27
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+creative_commons: CC BY-NC-SA
+categories:
+  - jsPsych
+  - Webpack
+  - jsPsych-builder
+  - Visual Studio Code
+  - Terminal
+draft: true
+---
+
+# Initializing a new jsPsych Project
+
+> **Objective**: Create the minimal instance of a jsPsych project.
+
+We use the `jspsych-builder` tool to create a local 
+
+
+
+**Local**
+
+1. Create a new folder. This is the parent folder where the new `jsPsych` project will be created in.
+
+**Terminal**
+
+1. Install `jspsych-builder`. [documentation](https://github.com/bjoluc/jspsych-builder). jspsych-builder is a "A CLI utility to easily develop and package jsPsych experiments.". Basically it helps with running/creating jsPsych experiments & plugins locally. I went down this route because I could not get the 'normal' jsPsych to install/build (with npm).
+
+```{bash, eval = FALSE}
+npx jspsych-builder init
+```

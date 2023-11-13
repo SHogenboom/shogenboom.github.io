@@ -1,0 +1,49 @@
+---
+title: "How I Created my Webpack Boilerplate"
+description: |
+  When you start a new web-/game-development project you want to get started without having to think of the (minimal) settings to get you there. A boilerplate set-up allows you to get started with minimal additional steps. Creating your own boilerplate has the added advantage of getting started with a set-up specified to your preferences. 
+author:
+  - name: Sally A.M. Hogenboom
+date: 2023-01-28
+output:
+  distill::distill_article:
+    self_contained: false
+creative_commons: CC BY-NC-SA
+categories:
+  - Webpack
+  - Visual Studio Code
+  - Terminal
+  - Github    
+    
+draft: true
+---
+
+## Initialize Webpack
+
+https://webpack.js.org/guides/getting-started/
+
+**Local**
+
+1. Create a new folder. Give it a sensible name like *webpack-setup*. Ideally, this is also a name which you can later on assign to a `Github` repository.
+
+**Terminal**
+
+1. Initialize npm
+```
+npm init -y
+```
+
+1. Install `webpack-cli` as a development dependency. This makes it easier to run webpack commands from the console.
+
+```
+npm install webpack webpack-cli --save-dev
+```
+
+1. Set package to private
+"We also need to adjust our package.json file in order to make sure we mark our package as `private`, as well as removing the main entry. This is to prevent an accidental publish of your code."
+
+```
+-  "main": "index.js",
++  "private": true,
+```
+

@@ -1,0 +1,37 @@
+---
+title: "Codeberg, Quarto, Open Books"
+description: |
+author:
+  - name: "Sally A.M. Hogenboom"
+    orcid_id: 0000-0003-3222-0019
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+creative_commons: CC BY-NC-SA
+categories:
+  - R
+  - R Studio
+  - Quarto
+  - Codeberg
+  - Codeberg Pages
+draft: true
+---
+
+**Why Codeberg?**
+* Non-profit
+* Git version control
+* Users can influence decision making - but only when they become active members.
+* Free
+* EU based - with privacy guidelines (GDPR) in mind
+
+
+1. Create a `Codeberg` account on their website: https://codeberg.org/user/sing_up
+
+1. Activate your account via the email that was sent to you.
+
+
+* https://github.com/quarto-dev/quarto-actions/blob/main/render/action.yml
+* https://woodpecker-ci.org/docs/awesome
+* https://codeberg.org/Codeberg/Community/issues
